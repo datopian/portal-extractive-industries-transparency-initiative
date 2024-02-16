@@ -51,7 +51,7 @@ export default function DatasetSearchFilters({
     >
       <Form>
         <section className="bg-white rounded-lg xl:p-8 p-4 mb-4 max-h-[400px] overflow-y-auto">
-          <h1 className="font-bold pb-4">Refine by Theme</h1>
+          <h1 className="font-bold pb-4">Refine by Group</h1>
           {groups.slice(0, seeMoreGroups ? groups.length : 5).map((group) => (
             <div key={group.id}>
               <Field
