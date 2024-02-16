@@ -27,7 +27,7 @@ const SearchForm: React.FC = () => {
         onChange={(e) => {
           setSearchQuery(e.target.value);
         }}
-        placeholder="GDP data..."
+        placeholder="EITI 2022 report..."
         aria-label="Search"
         className="w-3/4 pl-3 py-4 border border-accent rounded-md leading-none bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-accent focus:border-accent"
       />

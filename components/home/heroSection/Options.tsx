@@ -29,7 +29,7 @@ export function Groups() {
         </h1>
         <p className="group-hover:text-white text-center text-black font-inter pt-2">
           {" "}
-          Browse datasets <br /> by categories.
+          Explore data <br /> by groups or categories.
         </p>
       </div>
     </Link>
@@ -47,7 +47,7 @@ export function FindData() {
         </h1>
         <p className="group-hover:text-white text-center font-inter pt-2">
           {" "}
-          Discover datasets and gain <br /> insights from data.
+          Browse datasets and reports<br /> from EITI member countries
         </p>
       </div>
     </Link>
