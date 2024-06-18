@@ -55,13 +55,13 @@ export default function DatasetSearchForm({
           <Field
             list="groups"
             name="group"
-            placeholder="Themes"
+            placeholder="Groups"
             className="lg:border-l p-4 mx-2 placeholder:text-neutral-400"
           ></Field>
 
           <datalist aria-label="Formats" id="groups">
-            <option value="">Theme</option>
-            {groupsData.map((group, index) => (
+            <option value="">Group</option>
+            {groups.map((group, index) => (
               <option key={index}>{group.display_name}</option>
             ))}
           </datalist>

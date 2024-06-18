@@ -13,17 +13,21 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex items-center gap-x-12">
-          <span className="sr-only">Datopian</span>
-          <Link href="/">
+          <span className="sr-only">EITI</span>
+          <Link href="https://eiti.org">
             <img
-              src="/images/logos/MainLogo.svg"
+              // src="/images/logos/MainLogo.svg"
+              src="https://totalenergies.com/sites/g/files/nytnzq121/files/styles/w_1110/public/images/2022-04/Logo_EITI.png?itok=ZtERfO-0"
               width="60px"
               height="60px"
-              alt="Portal"
+              alt="EITI"
             ></img>
           </Link>
           <div className="hidden lg:flex lg:gap-x-12">
             <li className="flex gap-x-8 align-center">
+              <Link href="/" className="font-semibold text-white my-auto">
+                HOME
+              </Link>
               <Link href="/search" className="font-semibold text-white my-auto">
                 DATASETS
               </Link>
@@ -31,13 +35,17 @@ export default function Example() {
                 href="/organizations"
                 className="font-semibold text-white my-auto"
               >
-                ORGS
+                COUNTRIES
               </Link>
               <Link href="/groups" className="font-semibold text-white my-auto">
                 GROUPS
               </Link>
+              <Link href="#" className="font-semibold text-white my-auto">
+                API
+              </Link>
             </li>
           </div>
+          
         </div>
         <div className="flex lg:hidden">
           <button
@@ -59,13 +67,14 @@ export default function Example() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <span className="sr-only">Datopian</span>
-            <Link href="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">EITI</span>
+            <Link href="https://eiti.org" className="-m-1.5 p-1.5">
               <img
-                src="/images/logos/MainLogo.svg"
+                // src="/images/logos/MainLogo.svg"
+                src="https://totalenergies.com/sites/g/files/nytnzq121/files/styles/w_1110/public/images/2022-04/Logo_EITI.png?itok=ZtERfO-0"
                 width="60px"
                 height="60px"
-                alt="Portal"
+                alt="EITI"
               ></img>
             </Link>
             <button
@@ -80,6 +89,9 @@ export default function Example() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6 flex flex-col">
+                <Link href="/" className="font-semibold text-white my-auto">
+                  HOME
+                </Link>
                 <Link
                   href="/search"
                   className="font-semibold text-white my-auto"
@@ -90,13 +102,16 @@ export default function Example() {
                   href="/organizations"
                   className="font-semibold text-white my-auto"
                 >
-                  ORGS
+                  COUNTRIES
                 </Link>
                 <Link
                   href="/groups"
                   className="font-semibold text-white my-auto"
                 >
                   GROUPS
+                </Link>
+                <Link href="#" className="font-semibold text-white my-auto">
+                  API
                 </Link>
               </div>
             </div>

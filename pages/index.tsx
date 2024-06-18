@@ -43,9 +43,9 @@ export default function Home({
   return (
     <>
       <Head>
-        <title>Open Data Portal Demo</title>
-        <meta name="description" content="Open Data Portal Demo" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>EITI Open Data Portal</title>
+        <meta name="description" content="EITI Open Data Portal" />
+        <link rel="icon" href="https://totalenergies.com/sites/g/files/nytnzq121/files/styles/w_1110/public/images/2022-04/Logo_EITI.png?itok=ZtERfO-0" />
       </Head>
       <Layout>
         <Hero stats={stats} />
